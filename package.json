@@ -1,13 +1,17 @@
 {
   "name": "vscode-magic",
-  "displayName": "vscode-magic",
+  "displayName": "magic",
   "description": "file command's magic pattern file support for vscode",
   "icon": "assets/image/vscode-magic-icon.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.67.0"
   },
-  "publisher": "magic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awrznc/vscode-magic.git"
+  },
+  "publisher": "awrznc",
   "scripts": {
     "test": "cd ./assets/magic/ && gcc ./example.c -o ./example && ./example && file --magic-file ./example.magic ./example.bin"
   },
