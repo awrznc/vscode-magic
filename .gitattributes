@@ -1,0 +1,4 @@
+*.json linguist-detectable=true
+*.magic linguist-detectable=true
+*.png linguist-detectable=true
+*.svg linguist-detectable=true
