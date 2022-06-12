@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128">
+    <path fill="rgb(255, 56, 56)" d="
+      M 16 16
+      L 16 112
+      L 40 112
+      L 40 64
+      L 56 112
+      L 72 112
+
+      L 88 64
+      L 88 112
+      L 112 112
+      L 112 16
+      L 76 16
+      L 64 64
+      L 48 16
+      z
+    "/>
+</svg>

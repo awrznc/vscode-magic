@@ -1,0 +1,5 @@
+tmp/
+*.clip
+*.bin
+*.exe
+*.mgc

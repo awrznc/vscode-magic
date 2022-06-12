@@ -1,0 +1,50 @@
+{
+  "name": "vscode-magic",
+  "displayName": "vscode-magic",
+  "description": "file command's magic pattern file support for vscode",
+  "icon": "assets/image/vscode-magic-icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "publisher": "magic",
+  "scripts": {
+    "test": "cd ./assets/magic/ && gcc ./example.c -o ./example && ./example && file --magic-file ./example.magic ./example.bin"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "magic",
+        "filenames": ["magic"],
+        "extensions": [".magic"],
+        "configuration": "language-configuration.json",
+        "icon": {
+          "light": "assets/image/magic-text-file-icon.png",
+          "dark": "assets/image/magic-text-file-icon.png"
+        }
+      },
+      {
+        "id": "magic-binary",
+        "extensions": [".mgc"],
+        "icon": {
+          "light": "assets/image/magic-binary-file-icon.png",
+          "dark": "assets/image/magic-binary-file-icon.png"
+        }
+      }
+    ],
+    "grammars": [{
+      "language": "magic",
+      "scopeName": "source.magic",
+      "path": "syntaxes/magic.tmLanguage.json"
+    }],
+    "configurationDefaults": {
+      "[magic]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": true
+      }
+    }
+  }
+}

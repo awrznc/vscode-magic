@@ -1,0 +1,19 @@
+
+# -------------------------------------------------------------
+# Example File Format
+0       string  =EXPL   %s file
+!:mime  application/octet-stream
+
+# flag == 0
+>4      byte    =1      \b, flag %d
+>>5     byte    =2      \b, byte %d
+
+# flag != 0
+>4      byte    !1      \b, flag %d
+>>5     byte    =1      \b, byte %d
+
+>6      short   =3      \b, short %d
+>8      long    =4      \b, long %d
+>12     float   =5.5    \b, float %f
+>16     quad    =6      \b, quad %llx
+>24     double  =7.7    \b, double %f
