@@ -4,11 +4,11 @@
 0       string  =EXPL   %s file
 !:mime  application/octet-stream
 
-# flag == 0
+# flag == 1
 >4      byte    =1      \b, flag %d
 >>5     byte    =2      \b, byte %d
 
-# flag != 0
+# flag != 1
 >4      byte    !1      \b, flag %d
 >>5     byte    =1      \b, byte %d
 
