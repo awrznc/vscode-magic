@@ -3,7 +3,7 @@
   "displayName": "magic",
   "description": "file command's magic pattern file support for vscode",
   "icon": "assets/image/vscode-magic-icon.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.67.0"
   },
@@ -23,7 +23,7 @@
       {
         "id": "magic",
         "filenames": ["magic"],
-        "extensions": [".magic"],
+        "extensions": [".magic", ".mime"],
         "configuration": "language-configuration.json",
         "icon": {
           "light": "assets/image/magic-text-file-icon.png",
