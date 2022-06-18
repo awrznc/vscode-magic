@@ -3,6 +3,7 @@
 # Example File Format
 0       string  =EXPL   %s file
 !:mime  application/octet-stream
+!:ext   expl/bin/dat
 
 # flag == 1
 >4      byte    =1      \b, flag %d
