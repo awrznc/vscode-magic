@@ -3,7 +3,7 @@
   "displayName": "magic",
   "description": "file command's magic pattern file support for vscode",
   "icon": "assets/image/vscode-magic-icon.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.67.0"
   },

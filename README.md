@@ -10,7 +10,7 @@ file command's magic pattern file support for vscode.
 
 icon | extension | file type
 --- | --- | ---
-![](assets/image/magic-text-file-icon.png) | `*.magic` | ASCII text file
+![](assets/image/magic-text-file-icon.png) | `*.magic`, `*.mime` | ASCII text file
 ![](assets/image/magic-binary-file-icon.png) | `*.mgc` | binary file
 
 
